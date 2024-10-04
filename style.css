@@ -116,3 +116,39 @@ footer {
 footer p {
     font-size: 1rem;
 }
+
+.news-item small {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+/* Стили для кнопок сортировки */
+.sort-buttons {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.sort-buttons button {
+    background-color: #61dafb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.sort-buttons button:hover {
+    background-color: #21a1f1;
+}
+
+.sort-buttons button:active {
+    background-color: #1a81c2;
+}
+
+.sort-buttons button:focus {
+    outline: none;
+}
